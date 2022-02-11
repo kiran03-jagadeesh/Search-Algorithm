@@ -19,8 +19,7 @@ To write a program to perform linear search and binary search using python progr
 ## Program:
 i)	#Use a linear search method to match the item in a list.
 ```
-```
-''' 
+
 Program for linear search method to match the item in a list
 Developed by: your name
 RegisterNumber: 
@@ -51,8 +50,7 @@ else:
 ```
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
-```
-''' 
+
 Program to find the element in a list using Binary Search(Iterative Method)..
 Developed by: your name
 RegisterNumber: 
@@ -83,14 +81,10 @@ else:
     print("Element not found")
 # use if-else to print sorted array and "Element not found" if the item is not present in the list otherwise print sorted array and "Element found at index: ", result
 ```
-
-
-
-
-```
+``
 iii)	# Find the element in a list using Binary Search (recursive Method).
 ```
-```
+
 def BinarySearch(arr, k, low, high):
     if high>=low:
         mid=low+(high-low)//2
@@ -116,12 +110,12 @@ if result>=0:
     print("Element found at index: ",result)
 else:
     print("Element not found")
-    ```
-
-
-
-
 ```
 ```
+## OUTPUT
+![output](img.png)
+![output](img2.png)
+![output](img3.png)
+
 ## Result
 Thus the linear search and binary search algorithm is implemented using python programming.
